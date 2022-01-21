@@ -13,10 +13,18 @@ A real estate agency is looking to guide homeowners who are looking to sell thei
 This project uses 2014-2015 data from the King County House Sales dataset. It includes information on over 21,000 houses describing featuires such as age, size, condition, etc.
 
 ## Method
-The analysis deployed in this project uses multiple linear regression methods to develop an model of house price using a subset of predictor variables. The model is evaluated based on the final r-squared value of a test set of data.
+The analysis deployed in this project uses multiple linear regression methods to develop a model of house price using a subset of predictor variables. Several variable were log transformed, and all non-binary varaibles were standardized. Model iterations were compared by r-squared score.
 
 ## Results
+The final model has a r-squared score of 0.65, meaning that 65% of teh variance in the dataset is described by the model.
 
+The final model included 10 predictor variables. Of those, waterfront, house grade, and year built were the three most significant predictors of house price.
+
+![standardized_model_coefficients](./images/standardized_model_coefficients.png)
+
+Of the three featrues that can be affected by renovations, grade has the highest impact, increasing price by nearly 25% for every on unit increase. A 1 bathroom increase results in a 7.7% increase in price, and a one unit increase in condition increases price by about 5%.
+
+![renovation_coefficients](./images/renovation_coefficients.png)
 
 ## Conclusions
 - **Homeowners should invest in the maintenance and repair of worn out hosuse features:** maintening and repairing house features such as paint, roofing, plumbing, etc. to improve overall house condition can increase of house's sale price.
