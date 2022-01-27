@@ -52,7 +52,7 @@ For additional info, contact Benjamin Toler at [bentoler22@gmail.com](mailto:ali
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── LICENSE.md
-└── HOsuing_Renovation_Analysis.ipynb
+└── Housing_Price_Regression_Analysis.ipynb
 ├── README.md
 ├── presentation.pdf
 ```
