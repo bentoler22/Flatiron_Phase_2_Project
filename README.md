@@ -38,7 +38,7 @@ Of the three features that can be affected by renovations, grade has the highest
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./Housing_Renovation_Analysis.ipynb) or review this [presentation](./presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./Housing_Price_Regression_Analysis.ipynb) or review this [presentation](./presentation.pdf).
 
 For additional info, contact Benjamin Toler at [bentoler22@gmail.com](mailto:alison.bentoler22@gmail.com)
 
